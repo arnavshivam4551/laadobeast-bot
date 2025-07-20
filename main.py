@@ -7,7 +7,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(f"Hi {update.effective_user.first_name}, welcome to Laadobeast Bot! 😊")
+    await update.message.reply_text(f"Hi {update.effective_user.first_name}, welcome to arnav Bot! 😊")
 
 # /help command
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
