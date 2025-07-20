@@ -19,7 +19,7 @@ async def about(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # /love command
 async def love(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("💖 Tum meri zindagi ho, Priya 💖")
+    await update.message.reply_text("welcome to laadobeast love")
 
 # Create the bot application
 app = ApplicationBuilder().token(BOT_TOKEN).build()
