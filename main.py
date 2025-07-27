@@ -15,7 +15,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # /about command
 async def about(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("I am Laadobeast bot made with ❤️ by Arnav. I’m here to help and spread joy!")
+    await update.message.reply_text("I'm विवेक छिनरा")
 
 # /love command
 async def love(update: Update, context: ContextTypes.DEFAULT_TYPE):
